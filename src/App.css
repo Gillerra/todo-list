@@ -1,38 +1,76 @@
-.App {
-  text-align: center;
+body {
+  background-image: 
+  url("https://images.unsplash.com/photo-1522836924445-4478bdeb860c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80");
+  background-size: cover;
+  background-repeat: no-repeat; 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app {
+  background-color: rgb(251, 242, 242);
+  min-height: 80vh;
+  width: 400px;
+  margin: 25px auto;
+  opacity: 0.9;
+  border-radius: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.crossed {
+  text-decoration: line-through 3px #e75c5c;
+  background-color: #d9ecf6;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+ul, li {
+  list-style-type: none;
+  padding: 10px;
+  margin: 0;
+  font-size: 20px;
+  font-family: 'Caveat', cursive;
+  overflow-wrap: break-word;
+}
+
+.container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+  font-family: 'Caveat', cursive;
+  text-shadow: 1px 1px 1px #7cc1e6;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-add {
+  background: #7cc1e6;
+  margin-top: 5px;
+  padding: 12px;
+  border: none;
+  width: 50%;
+  font-size: 22px;
+  font-family: 'Caveat', cursive;
+  border-radius: 10px;
+  filter: drop-shadow(0 0 1px #858d93);
+}
+
+.btn-delete {
+  background: #FF8787;
+  margin-bottom: 5px;
+  padding: 12px;
+  border: none;
+  width: 50%;
+  font-size: 22px;
+  font-family: 'Caveat', cursive;
+  border-radius: 10px;
+  filter: drop-shadow(0 0 1px #858d93);
+}
+
+img {
+  border-radius: 50%;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  font-family: 'Caveat', cursive;
+  font-size: 20px;
 }
